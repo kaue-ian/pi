@@ -12,6 +12,12 @@ a#aprenda {
     text-decoration: none;
 }
 
+.conteudos {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 130px;
+}
+
 .sociais ul li {
     display: inline-block;
     list-style: none;
