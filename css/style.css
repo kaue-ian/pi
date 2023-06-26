@@ -37,6 +37,18 @@ img {
   padding-top: 3cm;
 }
 
+.topico1 {
+  margin-left: 20px;
+}
+
+.topico2 {
+  text-align: center;
+}
+
+.topico3 {
+  margin-left: 475px;
+}
+
 .slideshow-container {
   width: 100%;
   height: 80vh;
