@@ -43,13 +43,12 @@ img {
   position: relative;
   margin: auto;
 }
-
-li>a {
+div>a {
   text-decoration: none;
   color: black;
 }
 
-li>a:hover {
+div>a:hover {
   color: black;
 }
 
