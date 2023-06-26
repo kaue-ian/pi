@@ -6,8 +6,19 @@
     box-sizing: border-box;
   }
 
+<<<<<<< HEAD
   .mySlides {display: none;}
 img {vertical-align: middle;}
+=======
+.pagina {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+img {
+  vertical-align: middle;
+}
+>>>>>>> 736c511b3c77c2651891aba17ed36ebf1b3e4de1
 
 .slideshow-container {
   width: 100%;
