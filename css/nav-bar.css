@@ -1,129 +1,130 @@
  /*NAV*/
 
  a {
-    color: #100f0f;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  a:hover {
-    transform: scale(1.1);
-    text-decoration: underline;
-  }
+   color: #100f0f;
+   text-decoration: none;
+   transition: 0.3s;
+ }
 
-  .logo:hover {
-    text-decoration: none;
-  }
-  
-  .logofs {
-    height: 7vh;
-    width: 7vw;
-  }
+ a:hover {
+   transform: scale(1.1);
+   text-decoration: underline;
+ }
 
-  .org-nav {
-    margin-left: -30px;
-  }
-  .container-1 {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin-right: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #fffdfd;
-    height: 10vh;
-  }
-  
-  .nav-list {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-list li {
-    margin-left: 32px;
-  }
+ .logo:hover {
+   text-decoration: none;
+ }
 
-  .nav-list li:hover {
-    transform: scale(1.1);
-  }
-  
-  .mobile-menu {
-    display: none;
-    cursor: pointer;
-  }
-  
-  .mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
-    transition: 0.3s;
-  }
-  
-  @media (max-width: 1299px) {
-    body {
-      overflow-x: hidden;
-    }
-  
-    .nav-list {
-      position: absolute;
-      top: 8vh;
-      right: 0;
-      width: 50vw;
-      height: 92vh;
-      background: black;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in;
-    }
-  
-    .nav-list li {
-      margin-left: 0;
-      opacity: 0;
-    }
-  
-    .mobile-menu {
-      display: block;
-    }
-  }
-  
-  .nav-list.active {
-    transform: translateX(0);
-  }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-  
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-  }
-  
-  .mobile-menu.active .line2 {
-    opacity: 0;
-  }
-  
-  .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
-  }
+ .logofs {
+   height: 7vh;
+   width: 7vw;
+ }
+
+ .org-nav {
+   margin-left: -30px;
+ }
+
+ .container-1 {
+   height: 100%;
+   width: 100%;
+ }
+
+ .logo {
+   font-size: 24px;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   margin-right: 100px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+   background: #fffdfd;
+   height: 7vh;
+ }
+
+ .nav-list {
+   list-style: none;
+   display: flex;
+ }
+
+ .nav-list li {
+   margin-left: 32px;
+ }
+
+ .nav-list li:hover {
+   transform: scale(1.1);
+ }
+
+ .mobile-menu {
+   display: none;
+   cursor: pointer;
+ }
+
+ .mobile-menu div {
+   width: 32px;
+   height: 2px;
+   background: #fff;
+   margin: 8px;
+   transition: 0.3s;
+ }
+
+ @media (max-width: 1299px) {
+   body {
+     overflow-x: hidden;
+   }
+
+   .nav-list {
+     position: absolute;
+     top: 8vh;
+     right: 0;
+     width: 50vw;
+     height: 92vh;
+     background: black;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     transform: translateX(100%);
+     transition: transform 0.3s ease-in;
+   }
+
+   .nav-list li {
+     margin-left: 0;
+     opacity: 0;
+   }
+
+   .mobile-menu {
+     display: block;
+   }
+ }
+
+ .nav-list.active {
+   transform: translateX(0);
+ }
+
+ @keyframes navLinkFade {
+   from {
+     opacity: 0;
+     transform: translateX(50px);
+   }
+
+   to {
+     opacity: 1;
+     transform: translateX(0);
+   }
+ }
+
+ .mobile-menu.active .line1 {
+   transform: rotate(-45deg) translate(-8px, 8px);
+ }
+
+ .mobile-menu.active .line2 {
+   opacity: 0;
+ }
+
+ .mobile-menu.active .line3 {
+   transform: rotate(45deg) translate(-5px, -7px);
+ }

@@ -46,7 +46,7 @@ img {
 }
 
 .topico3 {
-  margin-left: 475px;
+  margin-left: 465px;
 }
 
 .slideshow-container {
@@ -55,6 +55,7 @@ img {
   position: relative;
   margin: auto;
 }
+
 div>a {
   text-decoration: none;
   color: black;
@@ -210,7 +211,6 @@ p#aprenda {
 .topico06:hover,
 .topico07:hover {
   transform: scale(1.1);
-  color: #fff;
 }
 
 .header-2 {
