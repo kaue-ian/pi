@@ -37,6 +37,12 @@ img {
   padding-top: 3cm;
 }
 
+.card-2 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 15vh;
+}
+
 .topico1 {
   margin-left: 20px;
 }
@@ -46,7 +52,8 @@ img {
 }
 
 .topico3 {
-  margin-left: 465px;
+  text-align: right;
+  margin-right: 20px;
 }
 
 .slideshow-container {
