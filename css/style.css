@@ -81,6 +81,11 @@ li {
   text-indent: 2cm;
   text-align: justify;
 }
+.tref {
+  font-size: 10pt;
+  margin-left: 4cm;
+  text-align: justify;
+}
 
 .text {
   color: #f2f2f2;
