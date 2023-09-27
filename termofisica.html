@@ -9,37 +9,135 @@
     <link rel="stylesheet" href="css/nav-bar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Termofísica</title>
 </head>
 
-<body>
+<body style="background-color: gainsboro;">
     <header>
         <nav>
             <nav class="nav-grid">
                 <div class="logofs">
                     <img class="logofsc" style="height: 7vh; width: 7vh;" src="imagens/fisica.png" alt="fsc">
                 </div>
-                <a class="logo" href="index.html">Física</a>
+                <a class="logo" href="index.html" style="text-decoration: none; color: black;">Física</a>
                 <div class="org-nav"></div>
                 <div class="mobile-menu">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
-                <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="energia.html">Energia</a></li>
-                    <li><a href="newton.html">Leis de Newton</a></li>
-                    <li><a href="mecanica.html">Mêcanica</a></li>
-                    <li><a href="eletricidade.html">Eletricidade</a></li>
-                    <li><a href="eletromagnetismo.html">Eletromagnetismo</a></li>
-                    <li><a href="termofisica.html">Termofísica</a></li>
+                <ul class="nav-list" style="margin-top: 2vh;">
+                    <li><a href="index.html" style="text-decoration: none; color: black;">Home</a></li>
+                    <li><a href="energia.html" style="text-decoration: none; color: black;">Energia</a></li>
+                    <li><a href="newton.html" style="text-decoration: none; color: black;">Leis de Newton</a></li>
+                    <li><a href="mecanica.html" style="text-decoration: none; color: black;">Mêcanica</a></li>
+                    <li><a href="eletricidade.html" style="text-decoration: none; color: black;">Eletricidade</a></li>
+                    <li><a href="eletromagnetismo.html"
+                            style="text-decoration: none; color: black;">Eletromagnetismo</a></li>
+                    <li><a href="termofisica.html" style="text-decoration: none; color: black;">Termofísica</a></li>
                     <li><a href="sambaqui.html" style="text-decoration: none; color: black;">Sambaqui</a></li>
                 </ul>
             </nav>
         </nav>
         </nav>
     </header>
+
+    <main>
+        <div class="container-fluid">
+            <h4>Conteúdos:</h4>
+            <div class="card bg-secondary bg-opacity-25">
+                <div class="card-body" style="text-decoration: none; " id="tres-colunas">
+    
+                    <div class="topico1">
+                        <a href="#introducao">O que são</a>
+                        <br>
+                        <a href="#temp">Temperatura</a>
+                        <br>
+                        <a href="#termometria">Termometria</a>
+                        <br>
+                        <a href="#calorimetria">Calorimetria</a>
+                    </div>
+                    <div class="topico2">
+                        <a href="#tipos">Tipos de transmissão</a>
+                        <br>
+                        <a href="#cinetica">Energia Cinética</a>
+                        <br>
+                        <a href="#termica">Energia Térmica</a>
+                        <br>
+                        <a href="#eletrica">Energia Elétrica</a>
+                    </div>
+                    <div class="topico3">
+                        <a href="#quimica">Energia Química</a>
+                        <br>
+                        <a href="#nuclear">Energia Nuclear</a>
+                        <br>
+                        <a href="#extras">Extras</a>
+                        <br>
+                        <a href="#referencias">Referências</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-md border bg-white" id="pagina"
+        style="box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.288); width: 21cm;"> 
+        <h1 id="titulo">Termofísica</h1>
+        <h6 id="introducao"><b>Introdução</b></h6>
+        <p class="texto">Segundo Rafael Helerbrock (2021) a Termologia é uma disciplina da Física que
+            se dedica ao estudo dos fenômenos relacionados ao calor, à temperatura, às
+            mudanças de estado físico, à dilatação térmica e aos gases. Essa área de estudo é
+            dividida em três partes principais: termometria, que se ocupa do estudo da
+            temperatura e das diferentes escalas termométricas, como Celsius, Fahrenheit e
+            Kelvin; calorimetria, que investiga as trocas de calor entre corpos; e termodinâmica,
+            que analisa as relações entre calor, energia e trabalho por meio das Leis da
+            Termodinâmica.</p>
+            <h6 id="temp"><b>Temperatura</b></h6>
+            <p class="texto">A Temperatura é uma das grandezas fundamentais da natureza e é definida
+                como a medida do grau de agitação das partículas que compõem um corpo. Essa
+                agitação pode ser causada por vibrações, rotações ou translações dos átomos e
+                moléculas.</p>
+                <p class="texto">No Sistema Internacional de Unidades (SI), a temperatura é medida em Kelvin
+                    (K), que é considerada uma escala absoluta de temperatura, pois não permite
+                    valores negativos. A escala Kelvin é definida em relação à vibração térmica dos
+                    átomos, sendo que a menor temperatura possível é o zero absoluto, equivalente a 0
+                    K.</p>
+                    <h6 id="termometria"><b>Termometria</b></h6>
+                    <p class="texto">A Termometria é um ramo da Física que se dedica ao estudo da temperatura e
+                        das escalas termométricas utilizadas para medir esse parâmetro físico. As escalas
+                        termométricas mais comuns são a Celsius, a Kelvin e a Fahrenheit. Na Celsius, o
+                        ponto de fusão da água é 0°C e o de ebulição é 100°C; na Kelvin, o ponto de fusão
+                        é 273,15 K e o de ebulição é 373,15 K; na Fahrenheit, o ponto de fusão da água é
+                        32°F e o de ebulição é 212°F.</p>
+                        <p class="texto">As escalas termométricas são empregadas para medir a temperatura em relação
+                            a uma referência. Essas escalas normalmente utilizam dois pontos fixos como
+                            referência, nos quais um corpo ou uma substância apresenta propriedades iguais,
+                            tais como volume, densidade, condutividade ou resistência elétrica, comprimento,
+                            entre outras. A partir desses pontos fixos, é possível estabelecer uma escala de
+                            medição da temperatura.</p>
+                            <h6 id="calorimetria"><b>Calorimetria</b></h6>
+                            <p class="texto">A Calorimetria é uma área da Termologia que tem como objeto de estudo as
+                                trocas de calor. O calor é uma forma de energia que flui espontaneamente entre
+                                corpos com diferentes temperaturas, seguindo as Leis da Termodinâmica. Essas leis
+                                estabelecem que o calor flui do corpo mais quente para o corpo mais frio até que
+                                ambos atinjam uma mesma temperatura.</p>
+                                <p class="texto">O calor é uma forma de energia que pode ser medida em joules, segundo o
+                                    Sistema Internacional de Unidades (SI), mas é comum que seja definido em
+                                    calorias. No estudo da Calorimetria, existem duas formas de calor: calor sensível e
+                                    calor latente, que são distintas entre si. (Rafael Helerbrock, 2021).</p>
+                                    <p class="texto">Existem três processos de transmissão de calor: condução, convecção e
+                                        irradiação. E existem duas formas de calor: calor sensível e calor latente.</p>
+                                        <h6 id="tipos"><b>Tipos de transmissão de calor</b></h6>
+                                        <p class="texto">Condução é a transmissão de calor por meio de contato direto entre os corpos,
+                                            em que a energia térmica flui do corpo de maior temperatura para o de menor
+                                            temperatura.</p>
+                                            <p class="texto">Convecção ocorre quando o calor é transmitido por meio do movimento de
+                                                fluidos, como líquidos e gases, devido às diferenças de densidade e temperatura.</p>
+                                                <p id="texto">Irradiação é a transmissão de calor por meio de ondas eletromagnéticas, como a
+                                                    luz e o calor do sol, sem necessidade de um meio material para propagar a energia
+                                                    térmica.</p>
+        </main>
 </body>
 
 </html>

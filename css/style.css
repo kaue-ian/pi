@@ -68,6 +68,10 @@ img {
   margin: auto;
 }
 
+.container-fluid {
+  margin-top: 60px;
+}
+
 div>a {
   text-decoration: none;
   color: black;
