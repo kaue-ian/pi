@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+#pagina h6 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .mySlides {
   display: none;
 }
@@ -81,6 +86,7 @@ li {
   text-indent: 2cm;
   text-align: justify;
 }
+
 .tref {
   font-size: 10pt;
   margin-left: 4cm;
@@ -223,6 +229,16 @@ p#aprenda {
 .topico06:hover,
 .topico07:hover {
   transform: scale(1.1);
+}
+
+.topico01,
+.topico02,
+.topico03,
+.topico04,
+.topico05,
+.topico06,
+.topico07 ins{
+  margin-right: 30px;
 }
 
 .header-2 {
