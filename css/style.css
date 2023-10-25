@@ -150,11 +150,7 @@ li {
   }
 }
 
-@media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px
-  }
-}
+
 
 /*FIM*/
 
@@ -280,4 +276,22 @@ p#aprenda {
 
   
   
+}
+
+
+@media only screen and (max-width: 480px) {
+  .text {
+    font-size: 11px
+  }
+  #tres-colunas {
+
+    display: block;
+    text-align: center;
+  }
+  .card-body {
+    display: block;
+  }
+  .topico3 {
+    text-align: center;
+  }
 }
