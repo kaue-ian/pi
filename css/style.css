@@ -294,4 +294,46 @@ p#aprenda {
   .topico3 {
     text-align: center;
   }
+
+  .mobile-menu {
+    background-color: rgb(167, 167, 167);
+    margin-left: 12vh;
+    border-radius: 7px;
+  }
+
+  .logofs {
+    margin-right: 4vh;
+  }
+
+  .logo {
+    
+  }
+
+  .nav-list.active {
+    position: absolute;
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+    width: 100%;
+  }
+  .nav-list.active a {
+    color: white
+  }
+  .slideshow-container {
+    position:static;
+  }
+
+  .div01 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+
+  .rodape {
+    background-color: rgb(167, 167, 1);
+    padding-top: 0;
+    padding-bottom: 93vh;
+  }
+  .rodape .container {
+    height:25vh;
+  }
 }
