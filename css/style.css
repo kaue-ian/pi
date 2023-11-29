@@ -281,6 +281,7 @@ p#aprenda {
   .text {
     font-size: 11px;
     position: relative;
+    bottom: 40px;
   }
   #tres-colunas {
 
