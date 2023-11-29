@@ -1,0 +1,10 @@
+.rodape {
+    height: auto;
+  }
+
+@media only screen and (max-width: 480px) {
+.rodape {
+    padding-top: 40vh;
+    padding-bottom: 40vh 
+  }
+}
