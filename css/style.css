@@ -41,6 +41,7 @@ img {
   padding-right: 2cm;
   padding-bottom: 2cm;
   padding-top: 3cm;
+  width: 21cm;
 }
 
 .card-2 {
@@ -345,6 +346,13 @@ p#aprenda {
       padding-right: 0.5cm;
       padding-bottom: 1cm;
       padding-top: 1.5cm;
-    
+  }
+
+  #ref {
+    padding-left: 1cm;
+    padding-right: 0.5cm;
+    padding-bottom: 1cm;
+    padding-top: 1.5cm;
+    width: 100%;
   }
 }
