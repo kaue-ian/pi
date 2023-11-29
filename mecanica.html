@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/paginas.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav-bar.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -81,7 +82,7 @@
     </div>
     
     <div class="container-md border bg-white" id="pagina"
-        style="box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.288); width: 21cm;">
+        style="box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.288); ">
         <h1 id="titulo">Mecânica</h1>
         
         <h3 id="mecanica"><b>Oque é a mecânica?</b></h3>
@@ -169,11 +170,13 @@
 
     <footer class="rodape">
         <div class="container">
-            <div class="row">
+            <div >
                 <div class="col" id="company">
-                    <img src="images/logo.png" alt="" class="logo">
+                    <img src="images/logo.png" alt class="logo" />
                     <p id="rea">
-                        Nós ajudamos você a aprender física de uma forma simples e simplificada.
+                        Nós ajudamos você a aprender física de uma forma
+                        simples e
+                        simplificada.
                     </p>
                     <div class="social">
                         <a href="#"><i class="fab fa-facebook"></i></a>
@@ -182,44 +185,50 @@
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
                     </div>
-                    <p id="copy">
-                        © TODOS OS DIREITOS RESERVADOS - FÍSICA 2023
-                    </p>
+
                 </div>
-                <div class="col" id="services" style="margin-left: 4vw;">
-                    <h2 style="margin-top: -6vh; font-size: 23px;">Links</h2>
+                <div class="col" id="services">
+                    <h3
+                        style="margin-top: -3vh; font-size: 23px; margin-top: 5px;">Links</h3>
                     <div class="links">
                         <a href="energia.html">Energia</a>
                         <a href="newton.html">Leis de Newton</a>
                         <a href="mecanica.html">Mecanica</a>
                         <a href="eletricidade.html">Eletrecidade</a>
-                    </div>
-                </div>
-                <div class="col" id="useful-links" style="margin-left: 4vw;">
-                    <h2 style="margin-top: -6vh; font-size: 23px;">Links</h2>
-                    <div class="links">
                         <a href="index.html">Home</a>
                         <a href="eletromagnetismo.html">Eletromagnetismo</a>
                         <a href="termofisica.html">Termofísica</a>
                         <a href="index.html">Ajuda</a>
                     </div>
                 </div>
-                <div class="col" id="contact" style="margin-left: 4vw;">
-                    <h2 style="font-size: 23px;">Desenvolvedores</h2>
+
+                <div class="col contact">
+                    <h3 style="font-size: 23px">Desenvolvedores</h3>
                     <div class="contact-details">
-                        <p>Matheus Gaspar 
-                            matheusgaspar29.if@gmail.com</p>
+                        <p>Matheus Gaspar<br />matheusgaspar29.if@gmail.com</p>
                     </div>
-                    
-                    
+
                     <div class="contact-details">
-                        <p>Kaue Ian 
-                            kaueian.2007@gmail.com</p>
+                        <p>Kaue Iankaueian.2007@gmail.com</p>
                     </div>
+                </div>
+
+                <div class="col contact">
+                    <h3 style="font-size: 23px">Monitor</h3>
+                    <div class="contact-details">
+                        <p>
+                            Professor Me. Kennedy Ferreira Araujo
+                            kennedy.araujo@ifc.edu.br
+                        </p>
+                    </div>
+                    <p id="copy">© TODOS OS DIREITOS RESERVADOS - FÍSICA
+                        2023</p>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="js/mobile-navbar.js"></script>
+        <script src="js/slide-show.js"></script>
 </body>
 
 </html>
