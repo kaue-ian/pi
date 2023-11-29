@@ -281,9 +281,9 @@ p#aprenda {
 
 @media only screen and (max-width: 480px) {
   .text {
-    font-size: 15px;
+    font-size: 14pt;
     position: relative;
-    bottom: 45px;
+    bottom: 55px;
   }
   #tres-colunas {
 
