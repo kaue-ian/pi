@@ -310,6 +310,7 @@ p#aprenda {
     background-color: rgb(119, 119, 119);
     border-radius: 10px;
     width: 100%;
+    display: inline-flex;
   }
   .nav-list.active a {
     color: white
