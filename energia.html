@@ -1,308 +1,385 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/nav-bar.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Energia e suas propriedades</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/nav-bar.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Energia e suas propriedades</title>
+    </head>
 
-<body style="background-color: gainsboro;">
-    <header>
-        <nav>
-            <nav class="nav-grid">
-                <div class="logofs">
-                    <img class="logofsc" style="height: 7vh; width: 7vh;" src="imagens/fisica.png" alt="fsc">
-                </div>
-                <a class="logo" href="index.html" style="text-decoration: none; color: black;">Física</a>
-                <div class="org-nav"></div>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-                <ul class="nav-list" style="margin-top: 2vh;">
-                    <li><a href="index.html" style="text-decoration: none; color: black;">Home</a></li>
-                    <li><a href="energia.html" style="text-decoration: none; color: black;">Energia</a></li>
-                    <li><a href="newton.html" style="text-decoration: none; color: black;">Leis de Newton</a></li>
-                    <li><a href="mecanica.html" style="text-decoration: none; color: black;">Mêcanica</a></li>
-                    <li><a href="eletricidade.html" style="text-decoration: none; color: black;">Eletricidade</a></li>
-                    <li><a href="eletromagnetismo.html"
-                            style="text-decoration: none; color: black;">Eletromagnetismo</a></li>
-                    <li><a href="termofisica.html" style="text-decoration: none; color: black;">Termofísica</a></li>
-                    <li><a href="sambaqui.html" style="text-decoration: none; color: black;">Sambaqui</a></li>
-                </ul>
+    <body style="background-color: gainsboro;">
+        <header>
+            <nav>
+                <nav class="nav-grid">
+                    <div class="logofs">
+                        <img class="logofsc" style="height: 7vh; width: 7vh;"
+                            src="imagens/fisica.png" alt="fsc">
+                    </div>
+                    <a class="logo" href="index.html"
+                        style="text-decoration: none; color: black;">Física</a>
+                    <div class="org-nav"></div>
+                    <div class="mobile-menu">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <ul class="nav-list" style="margin-top: 2vh;">
+                        <li><a href="index.html"
+                                style="text-decoration: none; color: black;">Home</a></li>
+                        <li><a href="energia.html"
+                                style="text-decoration: none; color: black;">Energia</a></li>
+                        <li><a href="newton.html"
+                                style="text-decoration: none; color: black;">Leis
+                                de Newton</a></li>
+                        <li><a href="mecanica.html"
+                                style="text-decoration: none; color: black;">Mêcanica</a></li>
+                        <li><a href="eletricidade.html"
+                                style="text-decoration: none; color: black;">Eletricidade</a></li>
+                        <li><a href="eletromagnetismo.html"
+                                style="text-decoration: none; color: black;">Eletromagnetismo</a></li>
+                        <li><a href="termofisica.html"
+                                style="text-decoration: none; color: black;">Termofísica</a></li>
+                        <li><a href="sambaqui.html"
+                                style="text-decoration: none; color: black;">Sambaqui</a></li>
+                    </ul>
+                </nav>
             </nav>
-        </nav>
-        
-    </header>
-    
 
-    <div class="container-fluid">
-        <h4>Conteúdos:</h4>
-        <div class="card bg-secondary bg-opacity-25">
-            <div class="card-body" style="text-decoration: none; " id="tres-colunas">
+        </header>
 
-                <div class="topico1">
-                    <a href="#surgimento">Surgimento</a>
-                    
-                    <a href="#definicao">Definição</a>
-                    
-                    <a href="#tipos">Tipos de eletricidade</a>
-                    
-                    <a href="#potencial">Energia Potencial</a>
-                </div>
-                <div class="topico2">
-                    <a href="#mecanica">Energia Mecânica</a>
-                    
-                    <a href="#cinetica">Energia Cinética</a>
-                    
-                    <a href="#termica">Energia Térmica</a>
-                    
-                    <a href="#eletrica">Energia Elétrica</a>
-                </div>
-                <div class="topico3">
-                    <a href="#quimica">Energia Química</a>
-                    
-                    <a href="#nuclear">Energia Nuclear</a>
-                    
-                    <a href="#extras">Extras</a>
-                    
-                    <a href="#referencias">Referências</a>
-                </div>
+        <div class="container-fluid">
+            <h4>Conteúdos:</h4>
+            <div class="card bg-secondary bg-opacity-25">
+                <div class="card-body" style="text-decoration: none; "
+                    id="tres-colunas">
 
+                    <div class="topico1">
+                        <a href="#surgimento">Surgimento</a>
 
+                        <a href="#definicao">Definição</a>
 
+                        <a href="#tipos">Tipos de eletricidade</a>
 
-
-            </div>
-        </div>
-    </div>
-    
-    <div class="container-md border bg-white" id="pagina"
-        style="box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.288); width: 21cm;">
-        <h1 id="titulo">Energia</h1>
-        <section>
-        <h6 id="surgimento"><b>Surgimento da Eletricidade</b></h6>
-        
-        <p class="texto">A história da eletricidade começou no século VI a.C. na Grécia Antiga, quando o
-            filósofo
-            Thales de Mileto descobriu um fóssil petrificado chamado âmbar. Ele então esfregou na pele
-            e então observou um poder que podia atrair objetos leves, como palhas, peda de madeira e
-            penas.</p>
-        </section>
-        <section>
-        <h3 id="definicao"><b>Definição</b></h3>
-        
-        <p class="texto">Existem diversos tipos de manifestações da energia, mas sua principal definição se baseia
-            na
-            capacidade de produzir trabalho. Através dessa produção de trabalhos, podemos compreender sua
-            funcionalidade
-            e quais são as diferentes formas em que ela pode ser encontrada, tais como fontes de calor, movimento,
-            eletricidade, entre outras.</p>
-        <p class="texto">As formas de energia que derivam de fontes esgotáveis são conhecidas como energias não
-            renováveis. Isso inclui a energia gerada a partir de combustíveis fósseis, como petróleo e carvão. Por outro
-            lado, as formas de energia provenientes de fontes que possuem capacidade de renovação natural são chamadas
-            de energias renováveis e limpas. Exemplos disso são a energia solar, obtida a partir da luz do sol, e a
-            energia eólica, originada da força dos ventos.
-        </p>
-    </section>
-    <section>
-        <h3 id="tipos"><b>Tipos de eletricidade</b></h3>
-        
-        <p class="texto">Segundo o <i>Portal Solar(2020)</i> existem 6 principais tipos de energias, sendo eles, a
-            energia mecânica, térmica, elétrica, química, atômica e cinética.</p>
-        </section>
-        <section>
-        <h3 id="potencial"><b>Energia Potencial</b></h3>
-        
-        <p class="texto">A energia potencial é a energia armazenada. Por exemplo, as águas de um rio têm energia
-            potencial, uma pedra no alto de uma montanha também.</p>
-        <p class="texto">Para que um corpo possa realizar trabalho ou, ainda, mudar de temperatura, é preciso que
-            algum
-            corpo transfira parte de sua própria energia para ele. Essa energia transferida entre corpos pode sofrer
-            transformações.</p>
-        </section>
-        <section>
-        <h3 id="mecanica"><b>Energia Mecânica</b></h3>
-        
-        <p class="texto"> A energia mecânica é um tipo de energia relacionado à realização de trabalho por meio do
-            movimento. Dentro dessa categoria, existem subcategorias específicas, como a energia cinética e a energia
-            potencial. A energia cinética está associada ao movimento de um objeto, enquanto a energia potencial pode
-            ser dividida em duas subcategorias: energia potencial gravitacional e energia potencial elástica.</p>
-        </section>
-        <section>
-        <h3 id="cinetica"><b>Energia Cinética</b></h3>
-        
-        <p class="texto">No caso da energia cinética ela está associada à energia contida em um corpo em movimento,
-            e
-            quando essa energia é armazenada em um corpo em repouso, ela é vista como energia potencial. Ou seja,
-            qualquer objeto em movimento tem a capacidade de produzir energia cinética, já que esta categoria de
-            energia
-            está relacionada à velocidade e à massa do objeto em movimento.</p>
-        <p class="texto">De acordo o Portal Solar (2020) a energia cinética é relacionada com o movimento dos
-            corpos.
-            Resumindo, quanto maior a velocidade de um corpo, maior é a energia cinética que ele possuirá. A fórmula
-            para o cálculo é <i>Ec = m.v² / 2</i>.
-        </p>
-    </section>
-    <section>
-        <h3 id="termica"><b>Energia Térmica</b></h3>
-        
-        <p class="texto">Relacionada ao calor e às altas temperaturas, a energia térmica é originada a partir da
-            energia
-            cinética, tendo em vista a movimentação de partículas e moléculas de um determinado corpo. Portanto,
-            podemos
-            dizer que, quanto maior a cinesia dessas partículas, maior será o grau de temperatura, tornando mais
-            forte a
-            energia térmica liberada.</p>
-        <p class="texto">De acordo com o Portal Solar (2020) um dos exemplos mais utilizados sobre energia térmica é
-            o
-            ferro de passar roupas, que transforma a energia elétrica em térmica para realizar uma ação cotidiana.
-            Além
-            disso, a termodinâmica estabelece que, ao encontrar dois corpos com temperaturas similares, espera-se
-            que
-            suas temperaturas se igualem após um determinado período.</p>
-        </section>
-        <section>
-        <h3 id="eletrica"><b>Energia Elétrica</b></h3>
-   
-        <p class="texto">A energia elétrica é a habilidade de realizar trabalho por meio da corrente elétrica, que é
-            obtida através da conversão de energia proveniente de diferentes fontes, como a energia hidrelétrica, eólica
-            ou solar.</p>
-        <p class="texto">A eletricidade é essencialmente o fluxo de elétrons, que ocorre entre dois pontos em um
-            condutor, geralmente comparado a um carrinho em movimento. (GOUVEIA, 200?).</p>
-        <p class="texto">A fim de determinar a quantidade de energia elétrica produzida pelos dispositivos, é
-            necessário
-            ter
-            conhecimento da sua potência e da duração do tempo em que os dispositivos ficaram ligados. Esse cálculo
-            é
-            realizado a partir da fórmula <i>E = P.t.</i></p>
-        </section>
-        <section>
-        <h3 id="quimica"><b>Energia Química</b></h3>
-        
-        <p class="texto">A quebra de ligações químicas pode resultar na liberação de diversos tipos de energia, entre
-            eles a energia química presente em certos materiais. Essa forma de energia também pode ser classificada como
-            energia potencial, uma vez que sua liberação exige uma significativa interferência na estrutura da matéria
-            para alterar o estado dessas ligações e, assim, gerar energia.</p>
-        <p class="texto">Existem dois tipos de reações químicas que liberam energia: as endotérmicas, que precisam
-            da
-            absorção de calor para produzir energia química, e as exotérmicas, que liberam energia na forma de
-            calor.
-        </p>
-        <p class="texto">A energia química armazenada em um material pode ser liberada através da combustão, resultando
-            na formação de fogo. A quantidade de calor e luz gerada durante a combustão está diretamente relacionada às
-            ligações químicas presentes na substância em questão.</p>
-        </section>
-        <section>
-        <h3 id="nuclear"><b>Energia Nuclear</b></h3>
-        
-        <p class="texto">A energia nuclear, também conhecida como energia atômica, é gerada pela divisão do
-            núcleo atômico de certos elementos radioativos, como o urânio. Esse processo libera uma grande
-            quantidade de
-            calor. Essa energia térmica é então convertida em energia elétrica por meio de um processo que envolve a
-            utilização de turbinas e geradores elétricos.</p>
-        <p class="texto">A energia nuclear é gerada em usinas termonucleares, como as usinas Angra 1 e 2 no Brasil,
-            sendo usada como
-            recurso energético. Além disso, a energou
-            stia nuclear é também utilizada na indústria bélica para a
-            construção
-            de armamento nuclear. É importante lembrar que a energia do sol que recebemos como luz e calor é gerada
-            por
-            reações nucleares que ocorrem em seu núcleo.</p>
-        <p class="texto">A principal função de uma usina nuclear é utilizar a energia liberada pela fissão dos
-            átomos de
-            urânio para
-            gerar calor e, consequentemente, eletricidade.</p>
-        </section>
-        <section>
-        <h3 id="extras"><b>Extras</b></h3>
-        
-        <p class="texto">A soma da energia cinética, gerada pelo movimento, e da energia potencial, resultante da
-            interação entre corpos, correspondem à energia mecânica. Essa energia corresponde à produção de energia
-            por
-            um corpo por meio do trabalho e pode ser transferida.
-        </p>
-        <p class="texto" style="margin-bottom: 2cm;">Nesse sentido, é necessário que seja feito um trabalho
-            sobre um corpo para que ele sofra uma variação na sua velocidade. (BATISTA, 2022).</p>
-        </section>
-    </div>
-    
-    
-    <div class="container-md border bg-white" id="ref"
-        style="box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.288); width: 21cm;">
-        <h4 id="referencias"><b>Referências:</b></h4>
-        <br>
-        <p>BATISTA, Carolina. Energia Cinética. Toda Matéria, [s.d.]. Disponível em: <a
-                href="https://www.todamateria.com.br/energia-cinetica/">https://www.todamateria.com.br/energia-cinetica/</a>.
-            Acesso em: 20 jun. 2023</p>
-        <p>SOLAR, Portal. Tipos de Energia. Portal Solar, [s.d.]. Disponível em: <a
-                href="https://www.portalsolar.com.br/tipos-de-energia#en-mecanica">https://www.portalsolar.com.br/tipos-de-energia#en-mecanica</a>
-            Acesso em: 20 jun. 2023</p>
-        <p>GOUVEIA, Rosimar. Energia Elétrica. Toda Matéria, [s.d.]. Disponível em: <a
-                href="https://www.todamateria.com.br/energia-eletrica/">https://www.todamateria.com.br/energia-eletrica/</a>.
-            Acesso em: 25 jun. 2023</p>
-    </div>
-
-
-    <footer class="rodape">
-        <div class="container">
-            <div class="row">
-                <div class="col" id="company">
-                    <img src="images/logo.png" alt="" class="logo">
-                    <p id="rea">
-                        Nós ajudamos você a aprender física de uma forma simples e simplificada.
-                    </p>
-                    <div class="social">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#potencial">Energia Potencial</a>
                     </div>
-                    <p id="copy">
-                        © TODOS OS DIREITOS RESERVADOS - FÍSICA 2023
-                    </p>
-                </div>
-                <div class="col" id="services" style="margin-left: 4vw;">
-                    <h2 style="margin-top: -6vh; font-size: 23px;">Links</h2>
-                    <div class="links">
-                        <a href="energia.html">Energia</a>
-                        <a href="newton.html">Leis de Newton</a>
-                        <a href="mecanica.html">Mecanica</a>
-                        <a href="eletricidade.html">Eletrecidade</a>
+                    <div class="topico2">
+                        <a href="#mecanica">Energia Mecânica</a>
+
+                        <a href="#cinetica">Energia Cinética</a>
+
+                        <a href="#termica">Energia Térmica</a>
+
+                        <a href="#eletrica">Energia Elétrica</a>
                     </div>
-                </div>
-                <div class="col" id="useful-links" style="margin-left: 4vw;">
-                    <h2 style="margin-top: -6vh; font-size: 23px;">Links</h2>
-                    <div class="links">
-                        <a href="index.html">Home</a>
-                        <a href="eletromagnetismo.html">Eletromagnetismo</a>
-                        <a href="termofisica.html">Termofísica</a>
-                        <a href="index.html">Ajuda</a>
+                    <div class="topico3">
+                        <a href="#quimica">Energia Química</a>
+
+                        <a href="#nuclear">Energia Nuclear</a>
+
+                        <a href="#extras">Extras</a>
+
+                        <a href="#referencias">Referências</a>
                     </div>
-                </div>
-                <div class="col" id="contact" style="margin-left: 4vw;">
-                    <h2 style="font-size: 23px;">Desenvolvedores</h2>
-                    <div class="contact-details">
-                        <p>Matheus Gaspar<br>matheusgaspar29.if@gmail.com</p>
-                    </div>
-                    
-                    <div class="contact-details">
-                        <p>Kaue Ian<br>kaueian.2007@gmail.com</p>
-                    </div>
+
                 </div>
             </div>
         </div>
-    </footer>
-</body>
+
+        <div class="container-md border bg-white" id="pagina"
+            style="box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.288); width: 21cm;">
+            <h1 id="titulo">Energia</h1>
+            <section>
+                <h6 id="surgimento"><b>Surgimento da Eletricidade</b></h6>
+
+                <p class="texto">A história da eletricidade começou no século VI
+                    a.C. na Grécia Antiga, quando o
+                    filósofo
+                    Thales de Mileto descobriu um fóssil petrificado chamado
+                    âmbar. Ele então esfregou na pele
+                    e então observou um poder que podia atrair objetos leves,
+                    como palhas, peda de madeira e
+                    penas.</p>
+            </section>
+            <section>
+                <h3 id="definicao"><b>Definição</b></h3>
+
+                <p class="texto">Existem diversos tipos de manifestações da
+                    energia, mas sua principal definição se baseia
+                    na
+                    capacidade de produzir trabalho. Através dessa produção de
+                    trabalhos, podemos compreender sua
+                    funcionalidade
+                    e quais são as diferentes formas em que ela pode ser
+                    encontrada, tais como fontes de calor, movimento,
+                    eletricidade, entre outras.</p>
+                <p class="texto">As formas de energia que derivam de fontes
+                    esgotáveis são conhecidas como energias não
+                    renováveis. Isso inclui a energia gerada a partir de
+                    combustíveis fósseis, como petróleo e carvão. Por outro
+                    lado, as formas de energia provenientes de fontes que
+                    possuem capacidade de renovação natural são chamadas
+                    de energias renováveis e limpas. Exemplos disso são a
+                    energia solar, obtida a partir da luz do sol, e a
+                    energia eólica, originada da força dos ventos.
+                </p>
+            </section>
+            <section>
+                <h3 id="tipos"><b>Tipos de eletricidade</b></h3>
+
+                <p class="texto">Segundo o <i>Portal Solar(2020)</i> existem 6
+                    principais tipos de energias, sendo eles, a
+                    energia mecânica, térmica, elétrica, química, atômica e
+                    cinética.</p>
+            </section>
+            <section>
+                <h3 id="potencial"><b>Energia Potencial</b></h3>
+
+                <p class="texto">A energia potencial é a energia armazenada. Por
+                    exemplo, as águas de um rio têm energia
+                    potencial, uma pedra no alto de uma montanha também.</p>
+                <p class="texto">Para que um corpo possa realizar trabalho ou,
+                    ainda, mudar de temperatura, é preciso que
+                    algum
+                    corpo transfira parte de sua própria energia para ele. Essa
+                    energia transferida entre corpos pode sofrer
+                    transformações.</p>
+            </section>
+            <section>
+                <h3 id="mecanica"><b>Energia Mecânica</b></h3>
+
+                <p class="texto"> A energia mecânica é um tipo de energia
+                    relacionado à realização de trabalho por meio do
+                    movimento. Dentro dessa categoria, existem subcategorias
+                    específicas, como a energia cinética e a energia
+                    potencial. A energia cinética está associada ao movimento de
+                    um objeto, enquanto a energia potencial pode
+                    ser dividida em duas subcategorias: energia potencial
+                    gravitacional e energia potencial elástica.</p>
+            </section>
+            <section>
+                <h3 id="cinetica"><b>Energia Cinética</b></h3>
+
+                <p class="texto">No caso da energia cinética ela está associada
+                    à energia contida em um corpo em movimento,
+                    e
+                    quando essa energia é armazenada em um corpo em repouso, ela
+                    é vista como energia potencial. Ou seja,
+                    qualquer objeto em movimento tem a capacidade de produzir
+                    energia cinética, já que esta categoria de
+                    energia
+                    está relacionada à velocidade e à massa do objeto em
+                    movimento.</p>
+                <p class="texto">De acordo o Portal Solar (2020) a energia
+                    cinética é relacionada com o movimento dos
+                    corpos.
+                    Resumindo, quanto maior a velocidade de um corpo, maior é a
+                    energia cinética que ele possuirá. A fórmula
+                    para o cálculo é <i>Ec = m.v² / 2</i>.
+                </p>
+            </section>
+            <section>
+                <h3 id="termica"><b>Energia Térmica</b></h3>
+
+                <p class="texto">Relacionada ao calor e às altas temperaturas, a
+                    energia térmica é originada a partir da
+                    energia
+                    cinética, tendo em vista a movimentação de partículas e
+                    moléculas de um determinado corpo. Portanto,
+                    podemos
+                    dizer que, quanto maior a cinesia dessas partículas, maior
+                    será o grau de temperatura, tornando mais
+                    forte a
+                    energia térmica liberada.</p>
+                <p class="texto">De acordo com o Portal Solar (2020) um dos
+                    exemplos mais utilizados sobre energia térmica é
+                    o
+                    ferro de passar roupas, que transforma a energia elétrica em
+                    térmica para realizar uma ação cotidiana.
+                    Além
+                    disso, a termodinâmica estabelece que, ao encontrar dois
+                    corpos com temperaturas similares, espera-se
+                    que
+                    suas temperaturas se igualem após um determinado período.</p>
+            </section>
+            <section>
+                <h3 id="eletrica"><b>Energia Elétrica</b></h3>
+
+                <p class="texto">A energia elétrica é a habilidade de realizar
+                    trabalho por meio da corrente elétrica, que é
+                    obtida através da conversão de energia proveniente de
+                    diferentes fontes, como a energia hidrelétrica, eólica
+                    ou solar.</p>
+                <p class="texto">A eletricidade é essencialmente o fluxo de
+                    elétrons, que ocorre entre dois pontos em um
+                    condutor, geralmente comparado a um carrinho em movimento.
+                    (GOUVEIA, 200?).</p>
+                <p class="texto">A fim de determinar a quantidade de energia
+                    elétrica produzida pelos dispositivos, é
+                    necessário
+                    ter
+                    conhecimento da sua potência e da duração do tempo em que os
+                    dispositivos ficaram ligados. Esse cálculo
+                    é
+                    realizado a partir da fórmula <i>E = P.t.</i></p>
+            </section>
+            <section>
+                <h3 id="quimica"><b>Energia Química</b></h3>
+
+                <p class="texto">A quebra de ligações químicas pode resultar na
+                    liberação de diversos tipos de energia, entre
+                    eles a energia química presente em certos materiais. Essa
+                    forma de energia também pode ser classificada como
+                    energia potencial, uma vez que sua liberação exige uma
+                    significativa interferência na estrutura da matéria
+                    para alterar o estado dessas ligações e, assim, gerar
+                    energia.</p>
+                <p class="texto">Existem dois tipos de reações químicas que
+                    liberam energia: as endotérmicas, que precisam
+                    da
+                    absorção de calor para produzir energia química, e as
+                    exotérmicas, que liberam energia na forma de
+                    calor.
+                </p>
+                <p class="texto">A energia química armazenada em um material
+                    pode ser liberada através da combustão, resultando
+                    na formação de fogo. A quantidade de calor e luz gerada
+                    durante a combustão está diretamente relacionada às
+                    ligações químicas presentes na substância em questão.</p>
+            </section>
+            <section>
+                <h3 id="nuclear"><b>Energia Nuclear</b></h3>
+
+                <p class="texto">A energia nuclear, também conhecida como
+                    energia atômica, é gerada pela divisão do
+                    núcleo atômico de certos elementos radioativos, como o
+                    urânio. Esse processo libera uma grande
+                    quantidade de
+                    calor. Essa energia térmica é então convertida em energia
+                    elétrica por meio de um processo que envolve a
+                    utilização de turbinas e geradores elétricos.</p>
+                <p class="texto">A energia nuclear é gerada em usinas
+                    termonucleares, como as usinas Angra 1 e 2 no Brasil,
+                    sendo usada como
+                    recurso energético. Além disso, a energou
+                    stia nuclear é também utilizada na indústria bélica para a
+                    construção
+                    de armamento nuclear. É importante lembrar que a energia do
+                    sol que recebemos como luz e calor é gerada
+                    por
+                    reações nucleares que ocorrem em seu núcleo.</p>
+                <p class="texto">A principal função de uma usina nuclear é
+                    utilizar a energia liberada pela fissão dos
+                    átomos de
+                    urânio para
+                    gerar calor e, consequentemente, eletricidade.</p>
+            </section>
+            <section>
+                <h3 id="extras"><b>Extras</b></h3>
+
+                <p class="texto">A soma da energia cinética, gerada pelo
+                    movimento, e da energia potencial, resultante da
+                    interação entre corpos, correspondem à energia mecânica.
+                    Essa energia corresponde à produção de energia
+                    por
+                    um corpo por meio do trabalho e pode ser transferida.
+                </p>
+                <p class="texto" style="margin-bottom: 2cm;">Nesse sentido, é
+                    necessário que seja feito um trabalho
+                    sobre um corpo para que ele sofra uma variação na sua
+                    velocidade. (BATISTA, 2022).</p>
+            </section>
+        </div>
+
+        <div class="container-md border bg-white" id="ref"
+            style="box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.288); width: 21cm;">
+            <h4 id="referencias"><b>Referências:</b></h4>
+            <br>
+            <p>BATISTA, Carolina. Energia Cinética. Toda Matéria, [s.d.].
+                Disponível em: <a
+                    href="https://www.todamateria.com.br/energia-cinetica/">https://www.todamateria.com.br/energia-cinetica/</a>.
+                Acesso em: 20 jun. 2023</p>
+            <p>SOLAR, Portal. Tipos de Energia. Portal Solar, [s.d.]. Disponível
+                em: <a
+                    href="https://www.portalsolar.com.br/tipos-de-energia#en-mecanica">https://www.portalsolar.com.br/tipos-de-energia#en-mecanica</a>
+                Acesso em: 20 jun. 2023</p>
+            <p>GOUVEIA, Rosimar. Energia Elétrica. Toda Matéria, [s.d.].
+                Disponível em: <a
+                    href="https://www.todamateria.com.br/energia-eletrica/">https://www.todamateria.com.br/energia-eletrica/</a>.
+                Acesso em: 25 jun. 2023</p>
+        </div>
+
+        <footer class="rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col" id="company">
+                        <img src="images/logo.png" alt class="logo" />
+                        <p id="rea">
+                            Nós ajudamos você a aprender física de uma forma
+                            simples e
+                            simplificada.
+                        </p>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="col" id="services">
+                        <h3
+                            style="margin-top: -3vh; font-size: 23px; margin-top: 5px;">Links</h3>
+                        <div class="links">
+                            <a href="energia.html">Energia</a>
+                            <a href="newton.html">Leis de Newton</a>
+                            <a href="mecanica.html">Mecanica</a>
+                            <a href="eletricidade.html">Eletrecidade</a>
+                            <a href="index.html">Home</a>
+                            <a href="eletromagnetismo.html">Eletromagnetismo</a>
+                            <a href="termofisica.html">Termofísica</a>
+                            <a href="index.html">Ajuda</a>
+                        </div>
+                    </div>
+
+                    <div class="col contact">
+                        <h3 style="font-size: 23px">Desenvolvedores</h3>
+                        <div class="contact-details">
+                            <p>Matheus Gaspar<br />matheusgaspar29.if@gmail.com</p>
+                        </div>
+
+                        <div class="contact-details">
+                            <p>Kaue Iankaueian.2007@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col contact">
+                        <h3 style="font-size: 23px">Monitor</h3>
+                        <div class="contact-details">
+                            <p>
+                                Professor Me. Kennedy Ferreira Araujo
+                                kennedy.araujo@ifc.edu.br
+                            </p>
+                        </div>
+                        <p id="copy">© TODOS OS DIREITOS RESERVADOS - FÍSICA
+                            2023</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/mobile-navbar.js"></script>
+        <script src="js/slide-show.js"></script>
+    </body>
 
 </html>
