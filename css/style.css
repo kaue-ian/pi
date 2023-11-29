@@ -151,9 +151,6 @@ li {
 }
 
 
-
-/*FIM*/
-
 p#aprenda {
   font-family: cursive;
   margin-left: 20px;
@@ -177,14 +174,12 @@ p#aprenda {
 
 .caixa {
   display: grid;
-  grid-template-areas: "header header" "main main" "aside aside" "footer footer";
-  grid-template-rows: 0vh 60vh 25vh 15vh;
   text-align: center;
   color: black;
 }
 
 .div01 {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .div01 img {
@@ -225,6 +220,7 @@ p#aprenda {
 .topico07 {
   margin-top: 30px;
   float: right;
+  margin-left: 20px;
 }
 
 .topico01:hover,
@@ -322,15 +318,21 @@ p#aprenda {
     position:static;
   }
 
+  .caixa {
+    text-align: justify;
+  }
+
   .div01 {
     flex-wrap: wrap;
     flex-direction: column;
-    
+    align-content: flex-end;
   }
 
   .rodape {
     padding-top: 0;
-    padding-bottom: 93vh;
+    padding-bottom: 98vh;
+    position: relative;
+    bottom: 0;
   }
   .rodape .container {
     height:25vh;
