@@ -182,6 +182,8 @@ p#aprenda {
 
 .div01 {
   display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .div01 img {
@@ -279,9 +281,9 @@ p#aprenda {
 
 @media only screen and (max-width: 480px) {
   .text {
-    font-size: 11px;
+    font-size: 15px;
     position: relative;
-    bottom: 40px;
+    bottom: 45px;
   }
   #tres-colunas {
 
